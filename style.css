@@ -1,36 +1,61 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background: #f5f7fa;
-  color: #333;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
 }
 
-header {
-  background: #111;
-  color: white;
+/* HERO */
+.hero {
   text-align: center;
+  padding: 80px 20px;
+  background: #111827;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  color: #cbd5e1;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* SECTIONS */
+section {
   padding: 40px;
 }
 
-header a {
-  color: #4da3ff;
-  text-decoration: none;
-}
-
-section {
-  background: white;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
-}
-
 h2 {
-  color: #111;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 5px;
+  color: #60a5fa;
 }
 
-ul {
-  line-height: 1.8;
+/* SKILLS */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.grid span {
+  background: #1f2937;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* CARDS */
+.card {
+  background: #1f2937;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
 }
