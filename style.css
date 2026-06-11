@@ -3,12 +3,27 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: #f7f7fb;
   color: #333;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* BACKGROUND DESIGN */
+.bg-blur {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  width: 300px;
+  height: 300px;
+  background: #c7d2fe;
+  filter: blur(120px);
+  z-index: -1;
 }
 
 /* NAVBAR */
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 15px 40px;
   background: #ffffffcc;
   backdrop-filter: blur(10px);
@@ -18,12 +33,13 @@ nav {
 }
 
 .logo {
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .nav-links a {
-  margin-left: 20px;
+  margin: 0 10px;
   text-decoration: none;
   color: #444;
 }
@@ -42,6 +58,8 @@ nav {
 
 .hero p {
   color: #555;
+  max-width: 700px;
+  margin: auto;
 }
 
 /* BUTTONS */
@@ -103,41 +121,34 @@ nav {
   background: #f9fafb;
   padding: 15px;
   border-radius: 10px;
-  transition: 0.3s;
 }
 
-.project:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+/* CONTACT */
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
-.project button {
-  margin-top: 10px;
-  padding: 8px 12px;
-  border: none;
-  background: #6366f1;
-  color: white;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-/* CONTACT BUTTONS */
-.contact-buttons a {
-  display: inline-block;
-  margin: 8px;
-  padding: 10px 15px;
+.contact-item {
   background: #f1f5f9;
+  padding: 10px 15px;
   border-radius: 8px;
+}
+
+.contact-item a {
   text-decoration: none;
+  font-weight: bold;
   color: #333;
-  transition: 0.3s;
 }
 
-.contact-buttons a:hover {
-  background: #e2e8f0;
+.contact-item p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  color: #555;
 }
 
-/* FADE IN ANIMATION */
+/* FADE IN */
 .fade-in {
   animation: fadeIn 1s ease-in;
 }
