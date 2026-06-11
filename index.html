@@ -1,115 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Pari Agarwal | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
-  <nav>
-    <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
+<!-- NAVBAR -->
+<nav>
+  <div class="logo">PA</div>
+
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <a class="btn-small" href="resume.pdf">Resume</a>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <h1>Pari Agarwal</h1>
+  <p class="tagline">
+    Aspiring AI Developer • CSE Student • Problem Solver
+  </p>
+
+  <p class="subtext">
+    Passionate about building intelligent systems, AI tools, and impactful web applications.
+  </p>
+
+  <div class="hero-buttons">
+    <a href="#projects" class="primary-btn">View My Work</a>
+    <a href="resume.pdf" class="secondary-btn">Download Resume</a>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="card">
+  <h2>👩‍💻 About Me</h2>
+  <p>
+    I am a Computer Science Engineering student passionate about Artificial Intelligence,
+    Machine Learning, and Full Stack Development. I enjoy building real-world projects and
+    constantly improving my skills.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="card">
+  <h2>⚙️ Skills</h2>
+
+  <div class="grid">
+    <span>C</span>
+    <span>Python</span>
+    <span>Java</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Git</span>
+    <span>GitHub</span>
+    <span>RAG Basics</span>
+    <span>LLMs</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="card">
+  <h2>🚀 Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Responsive personal portfolio using HTML & CSS.</p>
     </div>
 
-    <div class="logo">PARI AGARWAL</div>
-
-    <div class="nav-links">
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+    <div class="project-card">
+      <h3>AI Chatbot</h3>
+      <p>Gemini API powered chatbot for Q&A interactions.</p>
     </div>
-  </nav>
 
-  <!-- HERO -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1 class="name">PARI AGARWAL</h1>
-      <h2>💻 CS Student & AI Enthusiast</h2>
-      <p>AI • ML • Web Development • Problem Solving</p>
-
-      <div class="buttons">
-        <a href="#projects" class="primary">View Projects</a>
-        <a href="resume.pdf" class="secondary" download>Download Resume</a>
-      </div>
+    <div class="project-card">
+      <h3>Java To-Do App</h3>
+      <p>Task manager built using Java OOP concepts.</p>
     </div>
-  </header>
 
-  <!-- ABOUT -->
-  <section id="about" class="card">
-    <h2>👩‍💻 About Me</h2>
-    <p>
-      I am a Computer Science student passionate about Artificial Intelligence,
-      Machine Learning, and Web Development. I enjoy building real-world projects
-      and improving my problem-solving skills.
-    </p>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="card">
-    <h2>⚙️ Skills</h2>
-    <div class="grid">
-      <span>C</span>
-      <span>Python</span>
-      <span>Java</span>
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>Git</span>
-      <span>GitHub</span>
-      <span>AI Basics</span>
+    <div class="project-card">
+      <h3>RAG Chatbot</h3>
+      <p>Learning retrieval augmented generation systems.</p>
     </div>
-  </section>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="card">
-    <h2>🚀 Projects</h2>
+  </div>
+</section>
 
-    <div class="project-grid">
-      <div class="project">
-        <h3>Portfolio Website</h3>
-        <p>Responsive personal portfolio using HTML & CSS.</p>
-      </div>
+<!-- EXPERIENCE -->
+<section id="experience" class="card">
+  <h2>💼 Experience</h2>
 
-      <div class="project">
-        <h3>AI Chatbot</h3>
-        <p>Chatbot using Gemini API integration.</p>
-      </div>
+  <div class="timeline">
 
-      <div class="project">
-        <h3>Java To-Do App</h3>
-        <p>Task manager using OOP in Java.</p>
-      </div>
+    <div class="exp">
+      <h3>Samarth Intern – NEETIQ</h3>
+      <p>Worked on AI learning modules and problem solving tasks.</p>
+      <span>2024 – Present</span>
     </div>
-  </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="card">
-    <h2>📬 Contact</h2>
-
-    <div class="contact-buttons">
-      <div class="contact-item">
-        <a href="mailto:Pariagarwal244@gmail.com">Email</a>
-        <p>pariagarwal244@gmail.com</p>
-      </div>
-
-      <div class="contact-item">
-        <a href="tel:7599222574">Call</a>
-        <p>7599222574</p>
-      </div>
-
-      <div class="contact-item">
-        <a href="https://github.com/">GitHub</a>
-        <p>My projects</p>
-      </div>
-
-      <div class="contact-item">
-        <a href="https://linkedin.com/">LinkedIn</a>
-        <p>Professional profile</p>
-      </div>
+    <div class="exp">
+      <h3>Social Intern – Saarthi Hum Foundation</h3>
+      <p>Community awareness campaigns and event coordination.</p>
+      <span>2023 – 2024</span>
     </div>
-  </section>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="card contact">
+  <h2>📬 Contact Me</h2>
+
+  <div class="contact-grid">
+    <div>Email<br><span>Pariagarwal244@gmail.com</span></div>
+    <div>Phone<br><span>+91 7599222574</span></div>
+    <div>Location<br><span>Bijnor, India</span></div>
+    <div>LinkedIn<br><span>linkedin.com/in/pari-agarwal07</span></div>
+    <div>GitHub<br><span>github.com/pariiagarwal2005</span></div>
+  </div>
+
+  <p class="footer-note">Feel free to connect 💜</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Pari Agarwal • Built with 🤍</p>
+</footer>
 
 </body>
 </html>
