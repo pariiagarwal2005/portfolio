@@ -16,10 +16,7 @@ I enjoy building practical projects, exploring emerging technologies, and contin
 
 ## 🌐 Live Portfolio
 
-(Add your deployed website link here)
-
-Example:
-https://your-portfolio-link.com
+https://incredible-meerkat-4af79b.netlify.app/
 
 ---
 
